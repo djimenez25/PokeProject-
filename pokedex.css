@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: #f28b7d;
+  background: linear-gradient(to right, #d4d3dd, #f28b7d);
+  background: linear-gradient(to right, #d4d3dd, #f28b7d);
+}
+
+.title {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 3px;
+  margin: 30px;
+  color: #f7f769;
+}
+
+.search {
+  width: 100vw;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 0px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+}
+
+#search-input {
+  width: 300px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 40px;
+  padding: 10px;
+  background-color: #f28b7d;
+  background: linear-gradient(to right, #d4d3dd, #f28b7d);
+  background: linear-gradient(to right, #d4d3dd, #f28b7d);
+}
+
+.types {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.types__selector {
+  padding: 2px;
+  margin: 8px;
+  width: 100px;
+  border: 1px solid black;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 1rem;
+  background-color: #f28b7d;
+  background: linear-gradient(to right, #d4d3dd, #f28b7d);
+  background: linear-gradient(to right, #d4d3dd, #f28b7d);
+}
+
+.pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.pokemonCard {
+  background-color: #eee;
+  border-radius: 20px;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.pokemonId {
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 1em;
+  padding: 2px 8px;
+}
+
+.pokemonPhotoContainer {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 55%;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+}
+
+.pokemonPhotoContainer .photo {
+  margin-top: 20px;
+  max-width: 70%;
+}
+
+.pokemonName {
+  margin: 30px 0 7px;
+  letter-spacing: 1px;
+}
+
+.pokemonTypeContainer {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+.stats__container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-top: 5px;
+}
+
+.stats__amount {
+  font-weight: bolder;
+  margin-left: 30px;
+}
